@@ -1,1 +1,41 @@
+# Dataset Sources
 
+This project uses data from the following sources:
+
+## 1. Oceanic Niño Index (ONI)
+
+Source: NOAA Climate Prediction Center
+
+https://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php
+
+Description:
+The Oceanic Niño Index (ONI) is used to identify El Niño and La Niña events based on sea surface temperature anomalies.
+
+---
+
+## 2. ERA5 Reanalysis Dataset
+
+Source: Copernicus Climate Data Store
+
+https://cds.climate.copernicus.eu/
+
+Variables Used:
+- Temperature (t)
+- Relative Humidity (r)
+- Specific Humidity (q)
+- Geopotential Height (z)
+- Wind Components (u, v, w)
+
+Pressure Level:
+- 850 hPa
+
+Region:
+- Latitude: 30°N to 30°S
+- Longitude: 120°E to 280°E
+
+---
+
+## Note
+
+The complete ERA5 dataset is not included in this repository due to its large size.
+Users can download the data directly from the Copernicus Climate Data Store.
